@@ -10,6 +10,7 @@
 // )
 
 
+
 import { createRoot } from "root-dom/client"
-const root =createRoot(document.getElementById("root"))
-root.render(<h1>Hello Abdur Rehman!</h1>)
+const root = createRoot(document.getElementById("root"))
+root.render(<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, perspiciatis.</p>)
