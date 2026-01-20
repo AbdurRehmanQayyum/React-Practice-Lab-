@@ -13,4 +13,4 @@
 
 import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
-root.render(<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, perspiciatis.</p>, <h2>Happy Working Days</h2>)
+root.render(<h2>Welcome to React Learnig page</h2>)
