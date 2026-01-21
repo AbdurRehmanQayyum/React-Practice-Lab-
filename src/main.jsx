@@ -9,13 +9,10 @@
 //   </StrictMode>,
 // )
 
-
+import { createElement } from "react"
 import { createRoot } from "react-dom/client"
-createRoot(document.getElementById("root")).render(
-  <ul>
-    <li>React is popular</li>
-    <li>Will help me in my projects</li>
-    <li>Provide me opportunities</li>
-  </ul>
+const root = createRoot(document.getElementById("root"))
+root.render (
+  createElement("h1", null, "I am h1 from createElement")
 )
 
