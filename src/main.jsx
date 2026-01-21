@@ -10,7 +10,12 @@
 // )
 
 
-
 import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
-root.render(<button>Meow</button>)
+root.render(<p>Why are you doing react ?</p>,
+<ul>
+  <li>Money</li>
+  <li>Skill</li>
+  <li>Freedom of</li>
+</ul>)
+
