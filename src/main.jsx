@@ -17,6 +17,14 @@ import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
 
 
+function MainContent(){
+  return (
+    <>
+    <h1>React Is Great</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur rerum asperiores ullam consequatur sed, necessitatibus placeat voluptas blanditiis dolor?</p>
+    </>
+  );
+}
 
 function MyAwesomeNavbar() {
   return (
@@ -87,6 +95,7 @@ function MyAwesomeNavbar() {
 root.render(
   <div>
     <MyAwesomeNavbar />
+    <MainContent />
   </div>
 )
 
