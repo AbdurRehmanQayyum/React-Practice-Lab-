@@ -1,6 +1,6 @@
 // // import { StrictMode } from 'react'
-// // import { createRoot } from 'react-dom/client'
-// // import './index.css'
+import { createRoot } from "react-dom/client"
+import './index.css'
 // // import App from './App.jsx'
 
 // // createRoot(document.getElementById('root')).render(
@@ -100,8 +100,18 @@
 // )
 
 
-const root = document.getElementById("root")
-const header = document.createElement("h1")
-header.textContent = "React vs Vanilla JS"
+const root = createRoot(document.getElementById("root"))
 
-root.appendChild(header)
+root.render(
+  <Page />
+)
+
+
+function Page () {
+  return (
+    <ol>
+      <li>This is good</li>
+      <li>React is Awesome</li>
+    </ol>
+  )
+}
