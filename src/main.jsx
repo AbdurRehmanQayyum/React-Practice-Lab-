@@ -109,9 +109,12 @@ root.render(
 
 function Page () {
   return (
-    <ol>
-      <li>This is good</li>
-      <li>React is Awesome</li>
-    </ol>
+    <header>
+      <img src="assets/images/react-img.png" alt="" />
+    </header>
+    // <ol>
+    //   <li>This is good</li>
+    //   <li>React is Awesome</li>
+    // </ol>
   )
 }
