@@ -99,6 +99,7 @@ import './index.css'
 //   </div>
 // )
 
+import logo from "./assets/images/react-img.png";
 
 const root = createRoot(document.getElementById("root"))
 
@@ -109,12 +110,20 @@ root.render(
 
 function Page () {
   return (
+    <>
     <header>
-      <img src="assets/images/react-img.png" alt="" />
+      <img src={logo} width="90px" alt="Logo" />
     </header>
-    // <ol>
-    //   <li>This is good</li>
-    //   <li>React is Awesome</li>
-    // </ol>
+    <main>
+    <h1>Reasons I'm excited to learn React</h1>
+    <ol>
+      <li>This is good</li>
+      <li>React is Awesome</li>
+    </ol>
+    </main>
+    <footer>
+      © 2026 Qayyum development. All rights reserved.
+    </footer>
+    </>
   )
 }
