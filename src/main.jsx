@@ -122,7 +122,9 @@ function Page () {
     </ol>
     </main>
     <footer>
+      <small>
       © 2026 Qayyum development. All rights reserved.
+      </small>
     </footer>
     </>
   )
