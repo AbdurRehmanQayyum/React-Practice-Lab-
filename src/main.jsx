@@ -99,6 +99,8 @@ import './index.css'
 //   </div>
 // )
 
+import { Fragment } from "react";
+
 import logo from "./assets/images/react-img.png";
 
 const root = createRoot(document.getElementById("root"))
@@ -110,7 +112,7 @@ root.render(
 
 function Page () {
   return (
-    <>
+    <Fragment>
     <header>
       <img src={logo} width="90px" alt="Logo" />
     </header>
@@ -126,6 +128,6 @@ function Page () {
       © 2026 Qayyum development. All rights reserved.
       </small>
     </footer>
-    </>
+    </Fragment>
   )
 }
