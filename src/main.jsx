@@ -99,9 +99,7 @@ import './index.css'
 //   </div>
 // )
 
-import { Fragment } from "react";
-
-import logo from "./assets/images/react-img.png";
+import Header from "./components/Header";
 
 const root = createRoot(document.getElementById("root"))
 
@@ -112,10 +110,8 @@ root.render(
 
 function Page () {
   return (
-    <Fragment>
-    <header>
-      <img src={logo} width="90px" alt="Logo" />
-    </header>
+    <>
+    <Header/>
     <main>
     <h1>Reasons I'm excited to learn React</h1>
     <ol>
@@ -128,6 +124,6 @@ function Page () {
       © 2026 Qayyum development. All rights reserved.
       </small>
     </footer>
-    </Fragment>
+    </>
   )
 }
