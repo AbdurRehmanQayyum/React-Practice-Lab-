@@ -3,13 +3,13 @@ import logo from "../assets/images/react-img.png";
 
 function Header() {
     return (
-    <header>
-      <img src={logo} width="90px" alt="Logo" />
+    <header className="header">
+      <img className="image" src={logo}  alt="Logo" />
       <nav>
-        <ul>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
+        <ul className="nav-list">
+          <li className="nav-list-item">Pricing</li>
+          <li className="nav-list-item">About</li>
+          <li className="nav-list-item">Contact</li>
         </ul>
       </nav>
     </header>
