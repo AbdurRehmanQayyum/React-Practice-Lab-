@@ -4,7 +4,7 @@ import logo from "../assets/images/react-img.png";
 function Header() {
     return (
     <header className="header">
-      <img className="image" src={logo}  alt="Logo" />
+      <img src={logo} className="nav-logo" alt="Logo" />
       <nav>
         <ul className="nav-list">
           <li className="nav-list-item">Pricing</li>
