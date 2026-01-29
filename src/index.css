@@ -85,6 +85,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(36, 35, 35);
 }
 
 .nav-list {
@@ -99,4 +100,12 @@ h1 {
 
 .nav-logo {
   width: 70px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  
+
 }

@@ -1,6 +1,6 @@
 function Footer() {
     return (
-    <footer>
+    <footer className="footer">
       <small>
       © 2026 Qayyum development. All rights reserved.
       </small>
