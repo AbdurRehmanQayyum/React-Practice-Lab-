@@ -104,10 +104,6 @@ import MainComp from "./components/MainContent";
 import Footer from "./components/Footer";
 const root = createRoot(document.getElementById("root"))
 
-root.render(
-  <Page />
-)
-
 
 function Page () {
   return (
@@ -118,3 +114,9 @@ function Page () {
     </>
   )
 }
+
+root.render(
+  <Page />
+)
+
+
