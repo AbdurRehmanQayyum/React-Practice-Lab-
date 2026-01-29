@@ -100,7 +100,8 @@ import './index.css'
 // )
 
 import Header from "./components/Header";
-
+import Main from "./components/MainContent";
+import Footer from "./components/Footer";
 const root = createRoot(document.getElementById("root"))
 
 root.render(
@@ -112,18 +113,8 @@ function Page () {
   return (
     <>
     <Header/>
-    <main>
-    <h1>Reasons I'm excited to learn React</h1>
-    <ol>
-      <li>This is good</li>
-      <li>React is Awesome</li>
-    </ol>
-    </main>
-    <footer>
-      <small>
-      © 2026 Qayyum development. All rights reserved.
-      </small>
-    </footer>
+    <Main />
+    <Footer/>
     </>
   )
 }
