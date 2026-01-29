@@ -100,7 +100,7 @@ import './index.css'
 // )
 
 import Header from "./components/Header";
-import Main from "./components/MainContent";
+import MainComp from "./components/MainContent";
 import Footer from "./components/Footer";
 const root = createRoot(document.getElementById("root"))
 
@@ -113,7 +113,7 @@ function Page () {
   return (
     <>
     <Header/>
-    <Main />
+    <MainComp />
     <Footer/>
     </>
   )
