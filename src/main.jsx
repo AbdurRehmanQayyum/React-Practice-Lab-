@@ -102,6 +102,7 @@ import { createRoot } from "react-dom/client"
 import Header from "./components/Header";
 import MainComp from "./components/MainContent";
 import Footer from "./components/Footer";
+
 const root = createRoot(document.getElementById("root"))
 
 
